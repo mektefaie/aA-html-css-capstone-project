@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page 1</title>
+        <title>EKdev | Home</title>
 
         <!-- font awesome link -->
         <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
-            integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- normalize.css -->
@@ -21,20 +21,86 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <img src="./img/ekdev-logo.png" width="250" alt="ekdev logo">
-        <br>
-        <br>
-        <h1>My name is Mahmoud, and<br> I am a Permanent Resident of Tutorial
-            Hell!</h1>
-        <br><br>
-        <p>This i smy journey thus far. I am a <br> freelancer and a front-end
-            web
-            developer.</p>
-        <h2>Past</h2>
-        <p>Growing up and learning.</p>
-        <h2>Present</h2>
-        <p>A soccer referee, an endodontist, a web developer. Still learning.</p>
-        <h2>Future</h2>
-        <p>Will continue to learn.</p>
+        <div class="wrapper">
+            <div class="brand-bar">
+                <img src="./img/ekdev-logo.png" alt="ekdev logo">
+            </div>
+            <nav class="navbar">
+                <ul class="nav-items">
+                    <li class="nav-link"><a href>Home</a></li>
+                    <li class="nav-link"><a href>My Journey</a></li>
+                    <li class="nav-link"><a href>Resources</a></li>
+                    <li class="nav-link"><a href>Contact</a></li>
+                </ul>
+            </nav>
+
+            <header>
+                <h1>My name is Mahmoud,<br> and I am an aspired <br> <span
+                        class="highlight">Web
+                        Developer</span>.</h1>
+
+                <img src="./img/mahmoud_ektefaie.jpg"
+                    alt="mahmoud ektefaie's profile picture">
+            </header>
+
+            <section class="social-bar">
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/ektefaie"
+                            target="_blank">
+                            <i class="fa-brands fa-facebook fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/m_ektefaie" target="_blank">
+                            <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ektefaie/"
+                            target="_blank">
+                            <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mektefaie/"
+                            target="_blank">
+                            <i class="fa-brands fa-square-instagram fa-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <section class="main-home">
+                <div class="past">
+                    <h2><i
+                            class="fa-solid fa-angle-left fa-xs"></i><i
+                            class="fa-solid fa-caret-left fa-sm"></i> Past</h2>
+                    <p>Born in Iran. Studied in Canada and USA. Currently,
+                        living, working and raising a family in Canada.</p>
+                </div>
+                <br>
+                <div class="present">
+                    <h2><i class="fa-regular fa-circle-dot fa-xs"></i> Present</h2>
+                    <p>An active soccer referee, a full-time endodontist, a
+                        part-time educator, and an aspired web
+                        developer.</p>
+                </div>
+                <br>
+                <div class="future">
+                    <h2><i class="fa-solid fa-caret-right fa-sm"></i><i
+                            class="fa-solid fa-angle-right fa-xs"></i> Future</h2>
+                    <p>Will continue to learn new knowledge and acquire new
+                        skills, while striving to become a better person in
+                        life. I am a teacher for life!</p>
+                </div>
+            </section>
+            <footer>
+                <div class="footer">
+                    <p><b>&copy;2023&ensp;E<span class="accent-letter">K</span>dev.ca
+                        </b> | All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
